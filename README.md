@@ -36,12 +36,6 @@ The ETL creates `retail_sales.db` with `customers`, `products`, `orders`,
 and enriched `sales` tables. Open it with a SQLite viewer or Python's sqlite3
 module and execute `sql/analysis_queries.sql`.
 
-## Three-day learning plan
-Day 1: Understand the data, run the Python ETL, learn extract/transform/load,
-duplicate removal, missing-value handling, joins, and NumPy vectorization.
-Day 2: Inspect the SQLite tables and execute each SQL query; explain GROUP BY,
-aggregate functions, joins, and monthly reporting.
-Day 3: Run the PySpark job; understand DataFrame, groupBy, agg, orderBy,
 show, and Parquet output. Push the finished project to GitHub.
 
 ## Important
