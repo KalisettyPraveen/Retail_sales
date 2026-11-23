@@ -146,7 +146,7 @@ def get_connection():
         host=os.getenv("MYSQL_HOST", "localhost"),
         port=int(os.getenv("MYSQL_PORT", "3306")),
         user=os.getenv("MYSQL_USER", "root"),
-        password=os.getenv("MYSQL_PASSWORD", "PraveenK$$49"),
+        password=os.getenv("MYSQL_PASSWORD"),
         database=os.getenv("MYSQL_DATABASE", "retail_sales")
     )
 
