@@ -1,0 +1,28 @@
+
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Environment variables and passwords
+.env
+.env.*
+!.env.example
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Spark generated files
+data/processed/spark_output/
+
+# Logs
+*.log
+
+# VS Code local settings
+.vscode/
